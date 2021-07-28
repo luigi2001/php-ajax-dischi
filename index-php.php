@@ -26,6 +26,9 @@ include 'Array.php';
                 <?php foreach($dischi as $cover){ ?>
                 <div class="box">
                     <img src="<?php echo $cover['poster'] ?>" alt="<?php echo $cover['title'] ?>">
+                    <h2> <?php echo $cover['title'] ?> </h2>
+                    <h3> <?php echo $cover['author'] ?> </h3>
+                    <h4> <?php echo $cover['year'] ?> </h4>
                 </div>
                 <?php } ?>
             </div>

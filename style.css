@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    text-align: center;
+}
+
+header img{
+    width: 400px;
+}
+
+main{
+    padding: 20px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    padding: 40px;
+}
+
+.row{
+    display: flex;
+}
+
+.box{
+    width: calc(100% / 5 - 20px);
+    margin: 20px;
+}
+
+.box img{
+    width: 150px;
+}
